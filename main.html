@@ -8,9 +8,52 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+
+  <main class="movie-wrap" role="main" aria-labelledby="movieTitle">
+
+    <!-- Left: Poster -->
+    <aside class="poster-box" aria-hidden="false">
+      <!-- NOTE: required element is img.moviePic -->
+      <img class="moviePic" alt="Poster — The Example Movie"
+           src="https://i.pinimg.com/736x/fc/c7/a9/fcc7a9ab8bef27bf0f14e392bd8b3f91.jpg">
+    </aside>
+
+    <!-- Right: Movie info -->
+    <section class="movie-info" aria-labelledby="movieTitle">
+      <div class="title-row">
+        <div>
+          <h1 id="movieTitle">The Movie</h1>
+          <div class="meta">2024 • Action, Adventure • 2h 12m</div>
+        </div>
+        <div class="rating" aria-hidden="true">★ 8.7</div>
+      </div>
+
+      <!-- description: required p.movieDetail -->
+      <div class="detail-wrap">
+        <p class="movieDetail">
+          Chhava is a historical action drama based on the life of Chhatrapati Sambhaji Maharaj, the son of the great Maratha king Chhatrapati Shivaji Maharaj. The film highlights his bravery, sacrifices, and struggles to protect the Maratha empire against the Mughals. It explores his journey as a warrior prince, his leadership qualities, and his unwavering dedication to his people and kingdom.
+      </div>
+
+      <!-- supportive UI elements -->
+      <div class="stats" aria-hidden="true">
+        <div class="chip">Director: <strong style="color:var(--muted);margin-left:6px">Laxman Utekar</strong></div>
+        <div class="chip">Stars: <strong style="color:var(--muted);margin-left:6px">Vicky Kaushal</strong></div>
+        <div class="chip">Votes: <span style="color:var(--muted);margin-left:6px">142,391</span></div>
+      </div>
+
+      <div class="extra">
+        <div class="chip">Language: Hindi</div>
+        <div class="chip">Country: India</div>
+        <div class="chip">Budget: $80M</div>
+      </div>
+    </section>
+
+  </main>
+
+</body>
     <script type="text/javascript" src="./script.js">
 </script>
 
-</body>
+
 
 </html>
